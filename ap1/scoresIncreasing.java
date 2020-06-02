@@ -1,6 +1,6 @@
 package ap1;
 
-//codingbat link: https://codingbat.com/prob/p146974
+//codingbat link: https://codingbat.com/prob/p146974   
 
 public class scoresIncreasing {
 
@@ -9,7 +9,7 @@ public class scoresIncreasing {
   
         for(int i = 1; i < scores.length; i++){
             if(scores[i - 1] > scores[i]) isIncreasing = false;
-        }
+        } 
         
         return isIncreasing;
     }
