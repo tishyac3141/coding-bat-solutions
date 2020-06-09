@@ -1,5 +1,4 @@
 package warmup1;
-
 //codingbat link: https://codingbat.com/prob/p140449
 
 public class parrotTrouble {
