@@ -1,5 +1,7 @@
 package logic1;
 
+//codingbat link: https://codingbat.com/prob/p141061
+
 public class squirrelPlay {
 
     public boolean squirrelPlay(int temp, boolean isSummer) {
