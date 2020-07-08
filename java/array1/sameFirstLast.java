@@ -1,12 +1,11 @@
-package array1;
+package java.array1;
 
 //codingbat link: https://codingbat.com/prob/p118976
 
 public class sameFirstLast {
 
     public boolean sameFirstLast(int[] nums) {
-        return nums.length >= 1 && nums[0] == nums[nums.length-1];
+        return nums.length >= 1 && nums[0] == nums[nums.length - 1];
     }
-    
-    
+
 }
