@@ -1,2 +1,2 @@
 files to ignore:
-(?) java/.DS_Store
+.vscode/settings.json
