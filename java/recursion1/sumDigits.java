@@ -1,13 +1,14 @@
-package recursion1;
+package java.recursion1;
 
 public class sumDigits {
 
-    public int sumDigits(int n) {
-  
-        if(n == 0) return 0;
-        
-        return n % 10 + sumDigits(n / 10);
-        
-      }
-    
+  public int sumDigits(int n) {
+
+    if (n == 0)
+      return 0;
+
+    return n % 10 + sumDigits(n / 10);
+
+  }
+
 }

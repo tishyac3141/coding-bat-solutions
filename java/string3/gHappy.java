@@ -1,5 +1,5 @@
-package string3;
+package java.string3;
 
 public class gHappy {
-    
+
 }

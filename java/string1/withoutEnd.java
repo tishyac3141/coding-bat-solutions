@@ -1,9 +1,9 @@
-package string1;
+package java.string1;
 
 public class withoutEnd {
 
-    public String withoutEnd(String str) {
-        return str.substring(1, str.length() - 1);
-      }
-    
+  public String withoutEnd(String str) {
+    return str.substring(1, str.length() - 1);
+  }
+
 }
