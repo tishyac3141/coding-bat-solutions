@@ -1,4 +1,4 @@
-package java.string1;
+package java_code.string1;
 
 //codingbat link: https://codingbat.com/prob/p171896
 

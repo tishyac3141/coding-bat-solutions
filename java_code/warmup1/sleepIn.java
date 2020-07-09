@@ -1,4 +1,4 @@
-package java.warmup1;
+package java_code.warmup1;
 
 //codingbat link: https://codingbat.com/prob/p187868
 

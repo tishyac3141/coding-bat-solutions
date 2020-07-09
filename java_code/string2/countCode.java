@@ -1,4 +1,4 @@
-package java.string2;
+package java_code.string2;
 
 public class countCode {
 

@@ -1,4 +1,4 @@
-package java.string3;
+package java_code.string3;
 
 public class countYZ {
 
