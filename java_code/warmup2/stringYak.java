@@ -7,18 +7,18 @@ public class stringYak {
         if (str.length() < 3)
             return str;
 
-        String result = "";
+        String theResult = "";
 
         for (int i = 0; i < str.length(); i++) {
 
             if (i + 2 < str.length() && str.charAt(i) == 'y' && str.charAt(i + 2) == 'k') {
                 i += 2;
             } else {
-                result += str.charAt(i);
+                theResult += str.charAt(i);
             }
         }
 
-        return result;
+        return theResult;
     }
 
 }
