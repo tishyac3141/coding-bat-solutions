@@ -8,8 +8,6 @@ public class repeatFront {
         for (int i = n; i >= 0; i--) {
             newString += str.substring(0, i);
         }
-
         return newString;
-
     }
 }

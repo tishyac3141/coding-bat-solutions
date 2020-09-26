@@ -10,7 +10,7 @@ def centered_average(nums):
     ]
 
     #not necessary, but an extra check to make sure the length is not 0
-    if len(newList) == 0: return 0
+    if len(newList) == 0: return 0  
 
     #return the average
     return sum(newList) // len(newList)
