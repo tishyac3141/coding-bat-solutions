@@ -7,26 +7,25 @@ public class makeChocolate {
   }
 
   public static int makeChocolate(int small, int big, int goal) {
-    int weight = 0;
+    int bigKilos = 0;
+    int bigBarsUsed = 0;
 
-    for (int i = 0; i < big; i++) {
-      weight += 5;
+    while (bigKilos <= goal && bigBarsUsed <= big) {
+      bigBarsUsed++;
+      bigKilos += 5;
     }
 
-    while (weight > goal) {
-      weight -= 5;
-    }
+    bigKilos -= 5;
 
-    if (weight == goal)
+    if (bigKilos == goal)
       return 0;
-
-    for (int i = 1; i <= small; i++) {
-      weight++;
-      if (weight == goal)
-        return i;
+    else {
+      if (goal - bigKilos <= small) {
+        return goal - bigKilos;
+      } else {
+        return -1;
+      }
     }
-
-    return -1;
 
   }
 
