@@ -26,7 +26,6 @@ public class makeChocolate {
         return -1;
       }
     }
-
   }
 
 }
