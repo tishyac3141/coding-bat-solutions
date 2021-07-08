@@ -10,7 +10,7 @@ public class roundSum{
 
     public static int round10(int num){
         int number = num;
-
+        //basically, we want to keep going until we get the last digit in the number, which would be a single digit.
         while(number > 10){
             number = number%10;
         }
